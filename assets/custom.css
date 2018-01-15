@@ -1,0 +1,603 @@
+		*,h1,h2,h3,h4,h5{
+			font-family: Roboto, sans-serif;
+
+		}
+		body{
+			/*letter-spacing: 2px;*/
+			background: #EAEDED;
+			position: relative;
+		}
+
+		/*-----------NAVBAR------------*/
+		.navbar {
+	    z-index: 9999;
+	    letter-spacing: 4px;
+		}
+	  .affix {
+	      top:0;
+	      width: 100%;
+	      z-index: 9999 !important;
+	  }
+	  .navbar {
+	      margin-bottom: 0px;
+	      padding: 10px;
+	  }
+
+	  .affix ~ .container-fluid {
+	     position: relative;
+	     top: 50px;
+	  }
+
+
+		.navbar1{
+			background: #2471A3 !important;
+			padding-top: 10px;
+			padding-bottom: 10px;
+			box-sizing: border-box;
+		}
+
+		.navbar1 a{
+			color: white
+		}
+		.navbar2{
+			 background: rgba(255,255,255,0.97);
+			 font-size: 12px !important;
+			 border-bottom: 3px solid #F39C12
+		}
+		.navbar2 .navbar-right li a{
+			margin-top: 10px;
+			box-sizing: border-box;
+			background: #F39C12;
+	    color: white !important;
+		 	border-bottom: 2px solid #fff;
+		}
+		.navbar .navbar-left li a {
+			margin-top: 10px;
+			box-sizing: border-box;
+	    color: #2471A3 !important;
+		 	border-bottom: 2px solid #fff;
+		}
+
+		.navbar2 .navbar-right li a:hover, .navbar-right li.active a,
+		.navbar2 .navbar-left li a:hover, .navbar-left li.active a  {
+		    background: white !important;
+		    border-bottom: 2px solid #F39C12;
+		    color: #F39C12 !important;
+		    transition: 0.2s;
+		}
+
+		.navbar-default .navbar-toggle {
+				margin-top: 30px;
+		    border-color: transparent;
+		    color: #fff !important;
+		}
+
+		
+		/*-----------bg-top------------ */ 
+		.bg-top{
+			background-image: url('img/b2.jpg'); 
+			background-size: cover;
+			background-position: -2px; 
+			color: white;
+			padding: 150px 25px 100px;
+			letter-spacing: 4px;
+		}
+		.col1{
+			padding: 5px ; 
+    	background: rgba(21, 67, 96, 0.7);
+			letter-spacing: 3px;
+			margin-bottom: 20px;
+			border-radius: 10px;
+		}
+		
+		.bg-top table {
+			margin:auto;
+			text-align: left;
+		}
+		.bg-top table td{
+			border-right: 10px solid #73C6B6;
+			border-color: rgba(115, 198, 182, 0.0);
+		}
+		.bg-top table tr{
+			height: 60px;
+		}
+		.col11{
+			background: rgba(254,254,254,0.8); 
+			color: #2C3E50;
+		}
+
+		.bg-top .btnsatu{
+			margin: 20px 0px;
+			
+		}
+		
+
+	/*-----------pilar dasar------------ */
+		.bg-pilar{
+			background: #FFF;
+			padding: 10px 25px;
+			color: #2C3E50;
+		}
+		.bg-pilar p{
+			visibility: inline;
+			font-size: 15px;
+		}
+	/*----------------INFORMASI MAHASISWA BARU----------*/
+		.bg-infomahasiswa{
+			color: white;
+			background-image: url('img/folder/background7.jpg'); 
+			opacity: 0.8;
+			padding: 25px;
+			/*border-bottom: 4px solid #7B241C;*/
+		}
+		.bg-infomahasiswa h3{
+			/*border-bottom: 2px solid #7B241C; */
+
+		}
+		.rowsocial{
+			background: white;
+			color: #2471A3;
+			border-bottom: 4px solid #2471A3;
+			padding: 20px;	
+		}
+		/*-----------bg-tentang------------ PROFIL UMB*/
+		.bg-tentang{
+			background-image: url('img/folder//backgroundwhite.jpg');
+			padding: 50px 25px 100px;
+		}
+		.bg-tentang h3 span{
+			/*margin-bottom: 50px; */
+			color: #2471A3 ;
+		}
+		.bg-tentang ul li{
+			color: gray
+		}
+		.col21{
+			background: rgba(254,254,254,0.8);
+			padding: 50px;
+		}
+		
+		
+		/*-------------------lembaga------------------- LEMBAGA*/
+		.bg-lembaga{
+			background: white;
+			padding:10px 100px 20px;
+		}
+		.bg-lembaga h3{
+			color: #2471A3;
+		}
+		hr{
+			width: 5%;
+			background-color: #2471A3;
+			height: 1px; 
+		}
+		.kecil{
+			height: 300px;
+			box-sizing: border-box;
+			padding: 20px 10px 10px 10px;		
+			margin: 10px 10px;
+			/*border-bottom: 1px solid #2471A3;*/
+			
+		}
+		.kecil h5{
+			letter-spacing: 4px;
+			color: #263238;
+			font-weight: bold
+		}
+		.kecil p{
+			letter-spacing: 1px;
+			font-weight: 100;
+		}
+		
+		
+		/*-------------bg-newsnevent----------------*/
+		.bg-newsnevent{
+			/*background-image: url('img/folder//backgroundwhite.jpg');*/
+			background: #F7F9F9;
+			padding:50px 25px 50px;
+		}
+			/*NEWS EVENT*/
+			.bg-news .title{
+				/*background: #2471A3;*/
+				color: white;
+				padding: 2px;
+				border-radius: 10px;
+				background: #26C6DA; /* For browsers that do not support gradients */    
+		    background: -webkit-linear-gradient(left, #26C6DA , #2471A3); /* For Safari 5.1 to 6.0 */
+		    background: -o-linear-gradient(right, #26C6DA, #2471A3); /* For Opera 11.1 to 12.0 */
+		    background: -moz-linear-gradient(right, #26C6DA, #2471A3); /* For Firefox 3.6 to 15 */
+		    background: linear-gradient(to right, #26C6DA , #2471A3); /* Standard syntax (must be last) */
+			}
+			.news-judul{
+				color: #003366;
+			}
+			.news-tanggal{
+				color: #EF6C00;
+			}
+			.news-isi{
+				color: #e8e8e8;
+			}
+			.thumbnail {
+				padding: 10px;
+				border-top: 3px solid #FFB74D;
+			}
+			.thumbnail img{
+				max-width: 100%;
+				height: 250px;
+				
+			}
+			.thumbnail p{
+				text-align: justify;
+				font-size: 13px;
+				margin-left: 10px;
+			}
+		
+
+			/*agenda*/
+			.bg-agenda .title{
+				background: #FFB74D;
+				color: white;
+				padding: 2px;
+				border-radius: 10px;
+			
+			}
+			.agenda{
+				background:white;
+				margin-top: 20px;
+				font-size: 13px;
+				color: gray;
+				border-right: 2px solid #FFB74D
+			}
+			.agenda1{
+				background: #2471A3;
+				color: white;
+				background: cover;
+				/*padding: 5px;*/
+				border-radius: 20px;
+			}
+			.agenda1 p{
+				font-size: 30px;
+			}
+		/*------------bg-fakultas------------*/
+		.bg-fakultas{
+			padding:50px 50px 50px;
+			background: white;
+			/*background-image: url('img/folder//backgroundwhite.jpg');*/
+		}
+		.bg-fakultas h3{
+			color: #2471A3;
+		}
+		hr{
+			width: 5%;
+			background-color: #2471A3;
+			height: 1px; 
+		}
+		.panel-fakultas{
+			color: white;
+			height: 450px;
+			padding: 25px;
+			background-size: cover;
+			box-sizing: border-box;
+			 background-position: center; 	
+		}
+		.panel-fakultas h4{
+			border-bottom: 1px solid white;
+			/*display: inline-block;*/
+		}
+		.panel-fakultas .panel-body{
+			padding: 10% 0px;
+			background: rgba(000,000,000,0.5);
+			/*opacity: 0.5;*/
+			width: 100%;
+			height: 100%;
+		}
+		.panel-fakultas .panel-body h4{
+			letter-spacing: 3px;
+		}
+		.panel-fakultas .panel-body h5{
+			letter-spacing: 2px;
+		}
+
+		
+		/*------------ bg-alumni ------------*/
+		.bg-alumni{
+			padding:100px 25px 100px;
+			background-image: url('img/folder//backgroundwhite.jpg');
+		}
+		.bg-alumni h3{
+			color: #2471A3;
+			letter-spacing: 1px;
+		}
+		
+		.col6{
+			background: rgba(253, 254, 254,0.8);
+			padding-bottom: 50px;
+		}
+		.carousel-control.right, .carousel-control.left {
+	    background-image: none;
+	    color: #2471A3;
+		}
+		.carousel-indicators{
+			margin-top: 100px;
+		}
+		.carousel-indicators li {
+		    border-color: #2471A3;
+		}
+
+		.carousel-indicators li.active {
+		    background-color: #2471A3;
+		}
+
+		.item h4 {
+		    font-size: 19px;
+		    line-height: 1.375em;
+		    font-weight: 400;
+		    font-style: italic;
+		    margin: 0px 20px 80px;
+		}
+
+		.item span {
+		    font-style: normal;
+		}
+		.img-karosel{
+			max-width: 250px;
+			height: 220px;
+		}
+		.komen-karosel{
+			padding: 40px;
+			background: white;
+		}
+
+		/*------------ bg-kerjasama ------------ KERJASAMA*/
+		.bg-kerjasama{
+			background: white;
+		}
+		.bg-kerjasama h3{
+			color: #2471A3;
+		}
+		.bg-kerjasama img{
+			margin: 0 auto;
+			padding: 50px;
+		}
+		.bg-kerjasamaa img{
+			max-width: 50px;
+			height: auto;
+		}
+		
+		/*------------ footer ------------*/
+
+		.footer{
+			background:#1A5276;
+			color: white;
+			/*letter-spacing: 4px;*/
+			padding: 50px 80px 50px;
+		}
+		.footer a{
+			color: white;
+		}
+
+
+		/*------------ menu artikel------------*/
+		.menu{
+			background: white;
+			border-bottom: 4px solid #7B241C;
+			padding: 20px;	
+		}
+		.artikel{
+			margin: 100px auto;
+			background: white;
+		}
+		.artikel p{
+			text-align: justify; 
+			margin: 20px 0px;
+
+		}
+		.artikel img{
+			margin:0 auto;
+		}
+		.item{
+			margin:20px;
+
+		}
+		.komen{
+			margin: 30px auto;
+		}
+		.komenimg{
+			max-width: 150px;
+			height: auto;
+		}
+		.kmn{
+			margin-top:10px;
+		}
+		.item b{
+			background: #2C3E50;
+			color: white;
+			padding:5px;
+			margin: 10px auto;
+			border-radius: 10px; 
+		}
+		.item hr{
+			width: 100%;
+			border-color: red;
+		}
+		.item img{
+			margin: 10px 0px;
+
+		}
+		.item .btn{
+			margin-top: 10px;
+			border-radius: 20px;
+		}
+
+		/*------------ artikel dalam------------*/
+		
+		.bagikan{
+			background: white;
+			border-bottom: 1px solid #7B241C;
+			padding: 20px;	
+			clear: both;
+		}
+		.bagikan img{
+			max-width: 20px;
+			height: auto
+		}
+		.tag{
+			border-bottom: 1px solid #45B39D;
+			padding: 10px;
+		}
+		.tag ul{
+			list-style: none;
+			width: 100%;
+			
+		}
+		.tag li a{
+			text-decoration: none;
+			float: left;
+			padding: 10px;
+			background: #45B39D;
+			color: white;
+			margin-right: 20px;
+			border-radius: 5px;
+
+		}
+		.komentator{
+			border-bottom: 1px solid #7B241C;
+		}
+
+
+
+	
+.bg-sasana{
+	background-image: url('img/sasana.jpg');
+	/*height: 400px;*/
+	padding: 50px 100px;
+	background-size: cover;
+	background-attachment: fixed;
+
+}
+.bg-sasana .row .col-sm-8{
+	background:rgba(0, 0, 0,0.7);
+	color: white;
+	padding: 10px;
+	margin-top: 10px;
+}
+.bg-sasana h3,.bg-sasana h1{
+	color: white;
+	font-weight: 100;
+	letter-spacing: 3px;
+}
+.bg-sasana p{
+	font-weight: 100 !important;
+	letter-spacing: 1px;
+}
+.bg-sasana hr{
+	width: 10%;
+	background-color: #fff;
+	height: 1px;
+}
+.text-green{
+	color: #81C784
+}
+.bg-sasana .btn{
+	border: none;
+	background: #26C6DA; /* For browsers that do not support gradients */    
+  background: -webkit-linear-gradient(left, #26C6DA , #2471A3); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #26C6DA, #2471A3); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #26C6DA, #2471A3); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #26C6DA , #2471A3); /* Standard syntax (must be last) */
+}
+.bg-medsos{
+	
+	box-sizing: border-box;
+	background: #2471A3;
+	color:white;
+}
+
+
+.slideanim {visibility:hidden;}
+.slide {
+    /* The name of the animation */
+    animation-name: slide;
+    -webkit-animation-name: slide; 
+    /* The duration of the animation */
+    animation-duration: 1s; 
+    -webkit-animation-duration: 1s;
+    /* Make the element visible */
+    visibility: visible; 
+}
+
+/* Go from 0% to 100% opacity (see-through) and specify the percentage from when to slide in the element along the Y-axis */
+@keyframes slide {
+    0% {
+        opacity: 0;
+        transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        transform: translateY(0%);
+    } 
+}
+@-webkit-keyframes slide {
+    0% {
+        opacity: 0;
+        -webkit-transform: translateY(70%);
+    } 
+    100% {
+        opacity: 1;
+        -webkit-transform: translateY(0%);
+    }
+}
+
+
+
+/*LOGIN*/
+.login-page{
+	background: white !important
+}
+.login-page .container-fluid{
+	padding: 0px;
+}
+.login-page .col-kiri{
+	/*background: #283747;*/ 
+	background-image: url('img/b2.jpg'); 
+  background-position: center;
+}
+.login-page .col-kiri2{
+	background-color: rgba(0, 0, 0,0.7); 
+	height: 900px;
+ 	padding: 100px;
+  box-sizing: border-box;
+  letter-spacing: 1px;
+  color: #B3B6B7
+}
+.login-page .col-kiri h2,h5{
+  letter-spacing: 2px;
+  color: white;
+}
+.login-page .col-kiri img{
+	margin: 0 auto !important;
+}
+
+.login-page .col-kanan{
+/*	background: #26C6DA; 
+  background: -webkit-linear-gradient(left, #26C6DA , #2471A3); 
+  background: -o-linear-gradient(right, #26C6DA, #2471A3); 
+  background: -moz-linear-gradient(right, #26C6DA, #2471A3);
+  background: linear-gradient(to right, #26C6DA , #2471A3);*/
+  /*background: #283747;*/
+	height: 700px;
+  padding: 100px 130px;
+  box-sizing: border-box;
+}
+.col-kanan2 h3{
+	color: #26C6DA;
+	letter-spacing: 2px;
+}
+.col-kanan2 {
+  color: #000; 
+}
+.col-kanan2 .input-custom{
+  border: none;
+  border-bottom: 1px solid gray;
+  transition: 0.5s;
+}

@@ -1,0 +1,81 @@
+
+
+.sia-page .container{
+	margin-top: 40px;
+	/*background: white*/
+}
+
+.sia-page hr{
+	width: 100%;
+	background-color: #2471A3;
+	height: 2px; 
+}
+
+.text-white{
+	color: white;
+}
+.col-persentase h5{
+	letter-spacing: 1px;
+}
+.col-persentase{
+	/*margin-left: 20px;*/
+	/*background: rgba(255, 179, 0,0.2);*/
+	height: 100% !important;
+}
+
+.box-custom{
+	border-left:  5px solid #2471A3;
+}
+.table-absensi tr td{
+	padding: 20px 0px !important;
+	/*border-right: 1px solid #EEEEEE;*/
+}
+.table-absensi tr th{
+	background:#1F618D;
+	color: #fff;
+	padding: 20px 0px !important;
+	letter-spacing: 1px;
+}
+.table-absensi .td-statuson{
+	background: #4DB6AC;
+	color: white;
+	width: 200px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.table-absensi .td-statusoff{
+	background: #EEEEEE;
+	color: white;
+	width: 200px;
+	transition: 0.2s;
+	cursor: pointer;
+}
+.table-absensi .td-statusoff:hover,.table-absensi .td-status:hover{
+	background:#34495E;
+	color: #4DB6AC;
+}
+
+.footer2{
+	background:#1A5276;
+	color: #fff;
+	/*letter-spacing: 4px;*/
+	padding: 50px 0px;
+}
+.footer2 a{
+	color: white;
+}
+
+
+@keyframes geser {
+  from { transform: translatex(-10%)}
+  to   { transform: translatex(0)}
+}
+.animasigeser{
+	animation: geser 1s;
+}
+
+.tr-biru{
+	background: #7FB3D5 !important;
+	color: white;
+	border: none !important;
+}
